@@ -89,7 +89,7 @@
 
     }
 
-    
+
     printf("\n\n終了");
 
     return 0;
