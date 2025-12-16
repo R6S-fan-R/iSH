@@ -24,6 +24,8 @@
     while(the_end != 64)
         {
 
+            yesno = '0';
+
             while(yesno != 'y')
                     {
                         printf("player 1\nx = ");
@@ -36,7 +38,7 @@
             
         B[scanx - 1][scany - 1] = 1;
 
-        printf("   1 2 3 4 5 6 7 8\n");
+        printf("\n   1 2 3 4 5 6 7 8\n");
         for(i = 0; i < 8; i ++)
             {
                 printf("%d  ", i + 1);
@@ -63,7 +65,7 @@
 
         B[scanx - 1][scany - 1] = 2;
 
-        printf("   1 2 3 4 5 6 7 8\n");
+        printf("\n   1 2 3 4 5 6 7 8\n");
         for(i = 0; i < 8; i ++)
             {
                 printf("%d  ", i + 1);
